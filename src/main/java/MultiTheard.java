@@ -72,6 +72,7 @@ public class MultiTheard {
         thread.start();
         thread2.start();
         thread3.start();
+
         try {
             thread.join();
             thread2.join();
